@@ -1,7 +1,12 @@
 #version 300 es
+
 // our vertex data
-vec3 aPosition;
-vec2 aTexCoord;
+in vec3 aPosition; //DEBBIE you need to say in for both of these, i.e. in vec3 aPosition;
+
+//DEBBIE same here as above
+// but also you're not using this is the frag shader, FYI
+in vec2 aTexCoord;
+
 
 // lets get texcoords just for fun!
 out vec2 vTexCoord;

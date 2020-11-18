@@ -37,6 +37,7 @@ function draw() {
   // send the camera and the resolution to the shader
   camShader.setUniform('tex0', cam);
   camShader.setUniform('resolution', [width, height]);
+  // DEBBIE you're not using these in the shader
   camShader.setUniform('amount', map(mouseX,0,width,0,1));
   camShader.setUniform('power', map(mouseY,0,height,0,10));
 

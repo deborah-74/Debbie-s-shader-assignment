@@ -7,7 +7,7 @@ in vec3 aPosition; //DEBBIE you need to say in for both of these, i.e. in vec3 a
 // but also you're not using this is the frag shader, FYI
 in vec2 aTexCoord;
 
-
+// same as above not using in frag shader
 // lets get texcoords just for fun!
 out vec2 vTexCoord;
 

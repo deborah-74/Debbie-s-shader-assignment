@@ -6,7 +6,7 @@ precision mediump float;
 in vec2 vTexCoord;
 
 // DEBBIE this should be out, since the color is going out, like i said in my email to you before, not in
-// this should also be vec4 not vec4 (our output color is rgb + alpha)
+// this should also be vec4 not vec2 (our output color is rgb + alpha)
 // i also changed the name to how i had it in the email i sent you, you can't used that reserved name in the new glsl
 // for reference you had:
 // in vec2 gl_FragCoord;
